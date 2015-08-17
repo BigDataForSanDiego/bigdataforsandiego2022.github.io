@@ -10,8 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -273,13 +274,13 @@
                             <!-- Table -->
                             <table class="table" style='text-align:left'>
                                 <th><b><font color="black">Software Development Tools:</b></th><th><b>Web Services and Cloud Resources:</b></th>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.  R Tutorial</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.  Amazon EC2</td></tr>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  Python Tutorial</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  Parse</td></tr>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.  JavaScript Tutorial</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.  ArcGIS Online</td></tr>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.  Social Media APIs</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.  Dropbox</td></tr>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.  GIS Mapping APIs</td><td></td></tr>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.  Mobile App Development Tools</td><td></td></tr>
-                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.  Tableau</font></td><td></td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.  <a href="javascript:void(0)" onclick='toggleModal("#modal_r")'>R Tutorial</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.  Amazon EC2</td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  <a href="javascript:void(0)" onclick='toggleModal("#modal_python")'>Python Tutorial</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  Parse</td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.  <a href="javascript:void(0)" onclick='toggleModal("#modal_javascript")'>JavaScript Tutorial</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.  ArcGIS Online</td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.  <a href="javascript:void(0)" onclick='toggleModal("#modal_socialmedia")'>Social Media APIs</a></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.  Dropbox</td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.  <a href="javascript:void(0)" onclick='toggleModal("#modal_gis")'>GIS Mapping APIs</a></td><td></td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.  <a href="javascript:void(0)" onclick='toggleModal("#modal_mobile")'>Mobile App Development Tools</a></td><td></td></tr>
+                                <tr><td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.  <a href="javascript:void(0)" onclick='toggleModal("#modal_tableau")'>Tableau</a></font></td><td></td></tr>
                             </table>
                     </div>
                 </div>
@@ -416,9 +417,67 @@
 
 
 
+
+		<!-- modal-->
+		<!-- modal-r -->
+		<div class="modal fade" id='modal_r' tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">R Tutorial</h4>
+		      </div>
+		      <div class="modal-body">
+						<ul>
+							<li>R is a free software environment for statistical computing and graphics</li>
+							<li><a href='https://www.r-project.org/' target='_blank'>Homepage</a></li>
+							<li>Tutorial
+								<ul>
+									<li><a href='http://www.cyclismo.org/tutorial/R/' target='_blank'>R tutorial</a></li>
+									<li><a href='https://www.datacamp.com/courses' target='_blank'>DataCamp</a></li>
+								</ul>
+							</li>
+							<li>Video
+								<ul>
+									<li><a href='https://www.youtube.com/watch?v=7cGwYMhPDUY' target='_blank'>R Tutorial: Introduction to R</a></li>
+									<li><a href='https://www.youtube.com/watch?v=6jT6Rit_5EQ' target='_blank'>Introduction to R for Data Mining</a></li>
+								</ul>
+							</li>
+							<li>Books
+								<ul>
+									<li><a href='http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf' target='_blank'>An Introduction to Statistical Learning with Applications in R</a></li>
+								</ul>
+							</li>
+							<li>IDE
+								<ul>
+									<li><a href='https://www.rstudio.com/' target='_blank'>RStudio</a></li>
+								</ul>
+							</li>
+							<li>Useful links
+								<ul>
+									<li><a href='http://www.rdatamining.com/resources/onlinedocs' target='_blank'>R and Data Mining</a></li>
+									<li><a href='https://github.com/datasciencemasters/go/blob/master/r-resources.md' target='_blank'>The Open Source Data Science Masters</a></li>
+								</ul>
+							</li>
+						</ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+
+
+
+
+
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>

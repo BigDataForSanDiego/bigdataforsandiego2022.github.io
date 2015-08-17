@@ -5,7 +5,6 @@
 */
 
 (function($) {
-
 	skel
 		.breakpoints({
 			desktop: '(min-width: 737px)',
@@ -20,6 +19,8 @@
 			}
 		});
 
+
+	//ready
 	$(function() {
 
 		var	$window = $(window),
@@ -47,7 +48,7 @@
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
 
-		// Scrolly.
+				// Scrolly.
 			$window.load(function() {
 
 				var x = parseInt($('.wrapper').first().css('padding-top')) - 15;
@@ -60,5 +61,14 @@
 			});
 
 	});
-
 })(jQuery);
+
+
+
+function toggleModal(selector, options){
+	options=options || {}
+	options.backdrop=options.backdrop || true;
+	options.show=true;
+	
+	$(selector).modal(options);
+}
