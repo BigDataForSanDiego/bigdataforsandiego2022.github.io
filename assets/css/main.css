@@ -53,7 +53,8 @@
 /** modal */
 .modal-dialog {margin-top:100px; max-width:80%; min-width:40%; height:400px; overflow-x:hidden; overflow-y:auto; height:auto;  }
 .modal button {box-shadow:none; text-shadow:none; }
-.modal ul {list-style:disc; margin-left:25px; }
+.modal ul {list-style: square ;margin-left:25px;}
+.modal-body > ul {list-style:disc;  }
 .modal-body > ul > li {margin-top:20px;}
 .modal ul li {line-height:22px;  }
 .modal * {color:#333333 !important;  }
