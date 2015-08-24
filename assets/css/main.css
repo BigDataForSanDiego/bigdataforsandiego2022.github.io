@@ -62,6 +62,12 @@
 .modal-header * {color:#ffffff !important; }
 
 
+
+
+/** about **/
+#about .list ul {list-style:disc; margin-left:20px; }
+#about .list {color:#eeeeee; }
+
 /* Box Model */
 
 	*, *:before, *:after {
