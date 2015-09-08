@@ -50,6 +50,7 @@
 
 
 
+
 /** modal */
 .modal-dialog {margin-top:100px; max-width:80%; min-width:40%; height:400px; overflow-x:hidden; overflow-y:auto; height:auto;  }
 .modal button {box-shadow:none; text-shadow:none; }
@@ -61,7 +62,8 @@
 .modal-header {background-color:#8B0000 !important; color:#ffffff !important; }
 .modal-header * {color:#ffffff !important; }
 
-
+/** tool */
+#tools .table td {width:50%; }
 
 
 /** about **/
@@ -1111,7 +1113,7 @@
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: #2D9EB2;
 		text-decoration: underline;
 	}
 
