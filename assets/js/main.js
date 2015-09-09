@@ -60,6 +60,13 @@
 
 			});
 
+
+		$("section.theme").click(function(){
+			var target=$(this).attr("target");
+			console.log(target)
+			toggleModal(target);
+		})
+
 	});
 })(jQuery);
 
@@ -69,6 +76,6 @@ function toggleModal(selector, options){
 	options=options || {}
 	options.backdrop=options.backdrop || true;
 	options.show=true;
-	
+
 	$(selector).modal(options);
 }
