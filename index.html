@@ -36,12 +36,15 @@
             </li>
             <li><a href="#tools">Tools</a>
             </li>
-            <li><a href="#sponsorship">Sponsorship</a>
+            <!--
+            <li><a href="#" onclick='toggleModal("#sponsoship")'>Sponsorship</a>
+            </li>
+          -->
+            <li><a href="#sponsors">Sponsors</a>
             </li>
             <li><a href="#about">About</a>
             </li>
-            <li><a href="#sponsors">Sponsors</a>
-            </li>
+
         </ul>
     </nav>
 
@@ -127,22 +130,7 @@
     </div>
 
 
-    <!-- Sponsorship -->
-    <div class="wrapper style2" style="padding: 100px 30px; font color: black; ">
-        <article id="sponsorship">
-            <header>
-                <h1><font color="darkred">Sponsorship</font></h1>
-                <p><b>Help us to build a collaborative community for the future development of Open Government and Open Data Initiative for San Diego!</b>
-                </p>
-            </header>
-            <footer>
-                <p><b>Why sponsor?</b>
-                </p>
-                <p><font color="black"><p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Big Data Hackathon for San Diego aims to promote the development of data science and information technology solutions for San Diego on important civic issues related to water conservation, disaster response, and crime monitoring. Sponsorship of this important hackathon event will give you access to top talent and emerging stars in the information technology, data science and computer science fields.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over 200 participants are expected to attend this free event. Sponsorship can give you an opportunity to build company and brand recognition, to mentor and judge the innovative work created at the Hackathon, and to present your recent big data efforts to a large and targeted audience. If you are interested in becoming a sponsor, please <a href="data/sponsorship.pdf">download our flyer</a> to see sponsorship levels or contact Professor Amy Schmitz Weiss about sponsorship opportunities at <a href="mailto:aschmitz@mail.sdsu.edu">aschmitz@mail.sdsu.edu</a>.</font>
-                </p>
-            </footer>
-        </article>
-    </div>
+
 
 
 
@@ -203,7 +191,7 @@
                         <br>
                         <br>
                     </p>
-                    <a href="#sponsorship" class="button alert" button style="background-color:darkred">Become a sponsor!</a>
+                    <a href="#cost" onclick='toggleModal("#modal_sponsorship")' class="button alert" button style="background-color:darkred">Become a sponsor!</a>
             </header>
         </article>
     </div>
@@ -374,32 +362,20 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_r")'>R Tutorial</a>
-                            </td>
+                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_r")'>R Tutorial</a></td>
+                            <td>2. <a href="javascript:void(0)" onclick='toggleModal("#modal_python")'>Python Tutorial</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="javascript:void(0)" onclick='toggleModal("#modal_python")'>Python Tutorial</a>
-                            </td>
+                            <td>3. <a href="javascript:void(0)" onclick='toggleModal("#modal_javascript")'>JavaScript Tutorial</a></td>
+                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_socialmedia")'>Social Media APIs</a></td>
                         </tr>
                         <tr>
-                            <td>3. <a href="javascript:void(0)" onclick='toggleModal("#modal_javascript")'>JavaScript Tutorial</a>
-                            </td>
+                            <td>5. <a href="javascript:void(0)" onclick='toggleModal("#modal_gis")'>GIS Mapping APIs</a></td>
+                            <td>6. <a href="javascript:void(0)" onclick='toggleModal("#modal_mobile")'>Mobile App Development Tools</a></td>
                         </tr>
                         <tr>
-                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_socialmedia")'>Social Media APIs</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5. <a href="javascript:void(0)" onclick='toggleModal("#modal_gis")'>GIS Mapping APIs</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>6. <a href="javascript:void(0)" onclick='toggleModal("#modal_mobile")'>Mobile App Development Tools</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>7. <a href="javascript:void(0)" onclick='toggleModal("#modal_webdev")'>Web Development</a>
-                            </td>
+                            <td>7. <a href="javascript:void(0)" onclick='toggleModal("#modal_webdev")'>Web Development</a></td>
+                            <td></td>
                         </tr>
                     </table>
                 </div>
@@ -414,24 +390,16 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="https://prezi.com/" target='_blank'>Prezi</a>
-                            </td>
+                            <td>1. <a href="https://prezi.com/" target='_blank'>Prezi</a></td>
+                            <td>2. <a href="https://www.emaze.com/" target='_blank'>Emaze</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="https://www.emaze.com/" target='_blank'>Emaze</a>
-                            </td>
+                            <td>3. <a href="https://www.google.com/slides/about/" target='_blank'>Google Slides</a></td>
+                            <td>4. <a href="https://www.libreoffice.org/" target='_blank'>Libre Office</a></td>
                         </tr>
                         <tr>
-                            <td>3. <a href="https://www.google.com/slides/about/" target='_blank'>Google Slides</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4. <a href="https://www.libreoffice.org/" target='_blank'>Libre Office</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5. <a href="https://www.google.com/docs/about/" target='_blank'>Google Docs</a>
-                            </td>
+                            <td>5. <a href="https://www.google.com/docs/about/" target='_blank'>Google Docs</a></td>
+                            <td></td>
                         </tr>
                     </table>
                 </div>
@@ -447,24 +415,16 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_amazonEC2")'>Amazon EC2</a>
-                            </td>
+                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_amazonEC2")'>Amazon EC2</a></td>
+                            <td>2. <a href="https://pages.github.com/" target='_blank'>Github pages</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="https://pages.github.com/" target='_blank'>Github pages</a>
-                            </td>
+                            <td>3. <a href="javascript:void(0)" onclick='toggleModal("#modal_github")'>Github</a></td>
+                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_dropbox")'>Dropbox</a></td>
                         </tr>
                         <tr>
-                            <td>3. <a href="javascript:void(0)" onclick='toggleModal("#modal_github")'>Github</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_dropbox")'>Dropbox</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5. <a href="https://www.heroku.com/" target='_blank'>Heroku</a>
-                            </td>
+                            <td>5. <a href="https://www.heroku.com/" target='_blank'>Heroku</a></td>
+                            <td></td>
                         </tr>
                     </table>
                 </div>
@@ -479,24 +439,16 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_dropbox")'>Dropbox</a>
-                            </td>
+                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_dropbox")'>Dropbox</a></td>
+                            <td>2. <a href="https://www.box.com/" target='_blank'>Box</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="https://www.box.com/" target='_blank'>Box</a>
-                            </td>
+                            <td>3. <a href="https://www.google.com/drive/" target='_blank'>Google Drive</a></td>
+                            <td>4. <a href="https://aws.amazon.com/s3/" target='_blank'>Amazon S3</a></td>
                         </tr>
                         <tr>
-                            <td>3. <a href="https://www.google.com/drive/" target='_blank'>Google Drive</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4. <a href="https://aws.amazon.com/s3/" target='_blank'>Amazon S3</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5. <a href="https://filezilla-project.org/" target='_blank'>FireZilla</a>
-                            </td>
+                            <td>5. <a href="https://filezilla-project.org/" target='_blank'>FireZilla</a></td>
+                            <td></td>
                         </tr>
                     </table>
                 </div>
@@ -511,24 +463,16 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_dropbox")'>Firebase</a>
-                            </td>
+                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_dropbox")'>Firebase</a></td>
+                            <td>2. <a href="javascript:void(0)" onclick='toggleModal("#modal_parse")'>Parse</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="javascript:void(0)" onclick='toggleModal("#modal_parse")'>Parse</a>
-                            </td>
+                            <td>3. <a href="https://backendless.com/" target='_blank'>Backendless</a></td>
+                            <td>4. <a href="https://aws.amazon.com/s3/" target='_blank'>Amazon S3</a></td>
                         </tr>
                         <tr>
-                            <td>3. <a href="https://backendless.com/" target='_blank'>Backendless</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4. <a href="https://aws.amazon.com/s3/" target='_blank'>Amazon S3</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5. <a href="javascript:void(0)" onclick='toggleModal("#modal_amazonEC2")'>Amazon EC2</a>
-                            </td>
+                            <td>5. <a href="javascript:void(0)" onclick='toggleModal("#modal_amazonEC2")'>Amazon EC2</a></td>
+                            <td></td>
                         </tr>
                     </table>
                 </div>
@@ -542,20 +486,12 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_github")'>Github</a>
-                            </td>
+                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_github")'>Github</a></td>
+                            <td>2. <a href="https://trello.com/" target='_blank'>Trello</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="https://trello.com/" target='_blank'>Trello</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3. <a href="https://asana.com/" target='_blank'>ASANA</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4. <a href="https://slack.com/" target='_blank'>Slack</a>
-                            </td>
+                            <td>3. <a href="https://asana.com/" target='_blank'>ASANA</a></td>
+                            <td>4. <a href="https://slack.com/" target='_blank'>Slack</a></td>
                         </tr>
                     </table>
                 </div>
@@ -569,20 +505,12 @@
                     <!-- Table -->
                     <table class="table" style='text-align:left'>
                         <tr>
-                            <td>1. <a href="http://www.sublimetext.com/" target='_blank'>Sublime Text</a>
-                            </td>
+                            <td>1. <a href="http://www.sublimetext.com/" target='_blank'>Sublime Text</a></td>
+                            <td>2. <a href="https://atom.io/" target='_blank'>Atom</a></td>
                         </tr>
                         <tr>
-                            <td>2. <a href="https://atom.io/" target='_blank'>Atom</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3. <a href="https://notepad-plus-plus.org" target='_blank'>Notepad++</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4. <a href="http://www.barebones.com/products/textwrangler/" target='_blank'>TextWrangler</a>
-                            </td>
+                            <td>3. <a href="https://notepad-plus-plus.org" target='_blank'>Notepad++</a></td>
+                            <td>4. <a href="http://www.barebones.com/products/textwrangler/" target='_blank'>TextWrangler</a></td>
                         </tr>
                     </table>
                 </div>
@@ -591,6 +519,42 @@
         </article>
     </div>
 
+
+    <!-- Sponsors -->
+    <div class="wrapper style1" style="padding: 100px 30px">
+        <article id="sponsors">
+            <header>
+                <h1><font color="darkred">Sponsors</font></h1>
+                <p><font color="black"></font></p>
+            </header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section>
+                            <img src="images/iNews.jpg" alt=""  align="middle" />
+                        </section>
+                    </div>
+                </div>
+                <div class='row'>
+                  <div class="col-md-6">
+                      <section>
+                          <img src="images/JMS.png" alt="" style="" align="middle" />
+                      </section>
+                  </div>
+                  <div class="col-md-6">
+                      <section>
+                          <!--<img src="images/iNews.jpg" alt="" style="width: 50%; height: 50%" align="middle" />-->
+                      </section>
+                  </div>
+                </div>
+            </div>
+
+            <footer>
+                <a href="#sponsorship" onclick='toggleModal("#modal_sponsorship")' class="button alert" button style="background-color:darkred">Become a sponsor!</a>
+            </footer>
+        </article>
+    </div>
 
 
     <!-- About -->
@@ -713,32 +677,7 @@
 
 
 
-        <!-- Sponsors -->
-        <div class="wrapper style4" style="padding: 100px 30px">
-            <article id="sponsors">
-                <header>
-                    <h1><font color="white">Sponsors<br><br></font></h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class="6u 12u(mobile)">
-                                <section>
-                                    <img src="images/JMS.png" alt="" style="" align="middle" />
-                                </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                                <section>
-                                    <img src="images/iNews.jpg" alt="" style="width: 50%; height: 50%" align="middle" />
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </header>
 
-                        <footer>
-                            <a href="#sponsorship" class="button alert" button style="background-color:darkred">Become a sponsor!</a>
-                        </footer>
-            </article>
-            </div>
 
 
             <!-- Contact -->
@@ -797,6 +736,31 @@
 
 
             <!-- modal-->
+            <!-- Sponsorship -->
+            <div class="modal fade" id='modal_sponsorship' tabindex="-1" role="dialog">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                          </button>
+                          <h4 class="modal-title">Sponsorship</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p><b>Help us to build a collaborative community for the future development of Open Government and Open Data Initiative for San Diego!</b>
+                        </p>
+                        <p><b>Why sponsor?</b>
+                        </p>
+                        <p><font color="black"><p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Big Data Hackathon for San Diego aims to promote the development of data science and information technology solutions for San Diego on important civic issues related to water conservation, disaster response, and crime monitoring. Sponsorship of this important hackathon event will give you access to top talent and emerging stars in the information technology, data science and computer science fields.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over 200 participants are expected to attend this free event. Sponsorship can give you an opportunity to build company and brand recognition, to mentor and judge the innovative work created at the Hackathon, and to present your recent big data efforts to a large and targeted audience. If you are interested in becoming a sponsor, please <a href="data/sponsorship.pdf">download our flyer</a> to see sponsorship levels or contact Professor Amy Schmitz Weiss about sponsorship opportunities at <a href="mailto:aschmitz@mail.sdsu.edu">aschmitz@mail.sdsu.edu</a>.</font>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+
             <!-- modal-USDrought -->
             <div class="modal fade" id='modal_USDrought' tabindex="-1" role="dialog">
                 <div class="modal-dialog">
@@ -903,7 +867,7 @@
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                             </button>
-                            <h4 class="modal-title">SANDAG GIS databases online</h4>
+                            <h4 class="modal-title">SANDAG GIS Databases online</h4>
                         </div>
                         <div class="modal-body">
                             <ul>

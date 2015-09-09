@@ -66,6 +66,9 @@ section.theme:hover {cursor:pointer; }
 /** tool */
 #tools .table td {width:50%; }
 
+/** sponsors */
+#sponsors .row section img {width:60%; }
+
 
 /** about **/
 #about .list ul {list-style:disc; margin-left:20px; }
