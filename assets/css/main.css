@@ -59,7 +59,7 @@ section.theme:hover {cursor:pointer; }
 .modal-body > ul {list-style:disc;  }
 .modal-body > ul > li {margin-top:20px;}
 .modal ul li {line-height:22px;  }
-.modal * {color:#333333 !important;  }
+.modal * {color:#000000 !important;  }
 .modal-header {background-color:#8B0000 !important; color:#ffffff !important; }
 .modal-header * {color:#ffffff !important; }
 
