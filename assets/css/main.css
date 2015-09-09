@@ -1118,6 +1118,7 @@ section.theme:hover {cursor:pointer; }
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
 		color: #2D9EB2;
+		font-weight:600;
 		text-decoration: underline;
 	}
 
