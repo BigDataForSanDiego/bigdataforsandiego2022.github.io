@@ -63,6 +63,14 @@ section.theme:hover {cursor:pointer; }
 .modal-header {background-color:#8B0000 !important; color:#ffffff !important; }
 .modal-header * {color:#ffffff !important; }
 
+/** top */
+#top .click {text-align:center;width:100%;  }
+#top .click div {position:relative; top:-20px; }
+#top table {font-size:1.3em; margin-bottom:10px;  }
+#top table td {text-align:left; padding-bottom:15px;  }
+#top table td:first-child {font-weight:bold; width:110px; }
+
+
 /** tool */
 #tools .table td {width:50%; }
 
@@ -71,7 +79,7 @@ section.theme:hover {cursor:pointer; }
 
 /** welcom */
 #welcome {color:#000000; }
-#welcome ul {margin:0 auto; width:80%; }
+#welcome ul {margin:0 auto; width:80%; margin-top:30px;   }
 #welcome ul li {  font-size:1.3em; font-weight:600;  }
 
 
