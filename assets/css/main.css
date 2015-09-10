@@ -69,6 +69,11 @@ section.theme:hover {cursor:pointer; }
 /** sponsors */
 #sponsors .row a img {width:60%; }
 
+/** welcom */
+#welcome {color:#000000; }
+#welcome ul {margin:0 auto; width:80%; }
+#welcome ul li {  font-size:1.3em; font-weight:600;  }
+
 
 /** about **/
 #about .list ul {list-style:disc; margin-left:20px; }
