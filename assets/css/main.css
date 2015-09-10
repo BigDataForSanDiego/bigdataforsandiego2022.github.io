@@ -64,11 +64,12 @@ section.theme:hover {cursor:pointer; }
 .modal-header * {color:#ffffff !important; }
 
 /** top */
+
 #top .click {text-align:center;width:100%;  }
 #top .click div {position:relative; top:-20px; }
 #top table {font-size:1.3em; margin-bottom:10px;  }
-#top table td {text-align:left; padding-bottom:15px;  }
-#top table td:first-child {font-weight:bold; width:110px; }
+#top table td {text-align:left; padding-bottom:15px; color:#000000 !important; }
+#top table td:first-child {font-weight:600; width:110px; }
 
 
 /** tool */
