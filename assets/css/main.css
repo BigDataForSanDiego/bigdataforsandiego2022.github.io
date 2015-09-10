@@ -67,7 +67,7 @@ section.theme:hover {cursor:pointer; }
 #tools .table td {width:50%; }
 
 /** sponsors */
-#sponsors .row section img {width:60%; }
+#sponsors .row a img {width:60%; }
 
 
 /** about **/
