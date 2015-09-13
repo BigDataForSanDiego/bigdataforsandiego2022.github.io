@@ -80,9 +80,10 @@ section.theme:hover {cursor:pointer; }
 
 /** welcom */
 #welcome {color:#000000; }
-#welcome ul {margin:0 auto; width:80%; margin-top:30px;   }
+#welcome ul {margin:0 auto; width:60%; margin-top:30px; display:inline-block;   }
 #welcome ul li {  font-size:1.3em; font-weight:600;  }
-
+#welcome ul.role {list-style:disc; width:90%;}
+#welcome ul.role li {float:left; width:50%; display:inline-block; }
 
 /** about **/
 #about .list ul {list-style:disc; margin-left:20px; }
