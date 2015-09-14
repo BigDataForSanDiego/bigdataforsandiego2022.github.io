@@ -319,7 +319,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>4. <a href="https://github.com/USGS-CIDA/CIDA-Viz" target="_blank">California Drought</a>
+                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_CADroughtCIDA")'>California Drought Data from USGS Center for Integrated Data Analytics (CIDA)</a>
                             </td>
                         </tr>
                         <tr>
@@ -850,6 +850,42 @@
             </div>
         </div>
     </div>
+
+
+    <!-- modal-CADroughtCIDA -->
+    <div class="modal fade" id='modal_CADroughtCIDA' tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">USGS CIDA Drought Data</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>The State of California is experiencing one of the most severe droughts on record, which has implications for citizens of California and beyond. Many State, Federal, and Tribal agencies make routine observations of the water cycle. This website graphically visualizes these data to help understand the effect of drought on rivers, streams, lakes, and reservoirs. Below, learn more about water use and changes in the water cycle due to the current drought in California.</p>
+
+                            <p>The data presented on the <a href="http://cida.usgs.gov/ca_drought/">"California drought, visualized with open data"</a> are drawn from free and publicly accessible sources. In addition, the analytical, graphical, and software tools used are open-source and available for public re-use.</p>
+                        </li>
+                        <li>Dataset
+                            <ul>
+                                <li><a href='https://github.com/USGS-CIDA/CIDA-Viz' target='_blank'>Github site for the CIDA drought data map</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
 
     <!-- modal-USGSCAWaterUse -->
     <div class="modal fade" id='modal_USGSCAWaterUse' tabindex="-1" role="dialog">
