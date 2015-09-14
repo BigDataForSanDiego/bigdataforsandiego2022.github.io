@@ -323,7 +323,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>4. <a href="https://github.com/USGS-CIDA/CIDA-Viz" target="_blank">California Drought</a>
+                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_CADroughtCIDA")'>California Drought Data from USGS Center for Integrated Data Analytics (CIDA)</a>
                             </td>
                         </tr>
                         <tr>
@@ -793,6 +793,7 @@
 
 
 
+<<<<<<< HEAD
             <!-- modal-->
             <!-- Sponsorship -->
             <div class="modal fade" id='modal_sponsorship' tabindex="-1" role="dialog">
@@ -816,6 +817,78 @@
                       </div>
                   </div>
               </div>
+=======
+
+    <!-- modal-CADroughtCIDA -->
+    <div class="modal fade" id='modal_CADroughtCIDA' tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">USGS CIDA Drought Data</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>The State of California is experiencing one of the most severe droughts on record, which has implications for citizens of California and beyond. Many State, Federal, and Tribal agencies make routine observations of the water cycle. This website graphically visualizes these data to help understand the effect of drought on rivers, streams, lakes, and reservoirs. Below, learn more about water use and changes in the water cycle due to the current drought in California.</p>
+
+                            <p>The data presented on the <a href="http://cida.usgs.gov/ca_drought/">"California drought, visualized with open data"</a> are drawn from free and publicly accessible sources. In addition, the analytical, graphical, and software tools used are open-source and available for public re-use.</p>
+                        </li>
+                        <li>Dataset
+                            <ul>
+                                <li><a href='https://github.com/USGS-CIDA/CIDA-Viz' target='_blank'>Github site for the CIDA drought data map</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+    <!-- modal-USGSCAWaterUse -->
+    <div class="modal fade" id='modal_USGSCAWaterUse' tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">USGS Water Use Data for California</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>
+                                The USGS's <a href="http://water.usgs.gov/watuse/">National Water Use Information Program</a> compiles and publishes the Nation's water-use data. Public access to some of these data is provided via the USGS Water Data for the Nation site
+                                <a href="http://help.waterdata.usgs.gov/faq/additional-background">(additional background)</a>.
+                                <a href="http://water.usgs.gov/watuse/wuglossary.html">Water use</a> refers to water that is used for specific purposes. Water-use data is collected by area type (State, county, watershed or aquifer) and source such as rivers or groundwater, and category such as public supply or irrigation. Water-use data has been reported every five years since 1950, for years ending in "0" and "5". The USGS works in cooperation with local, State, and Federal agencies as well as academic and private organizations to collect and report total withdrawals.
+                            </p>
+
+                            <p>
+                                Annual water-use data are expressed in units of million gallons per day (abbreviated as Mgal/d) and thousand acre-feet per year. For the irrigation category, water-use data are the average daily quantities used over a period of a year and do not represent actual daily rates. In most parts of the nation, irrigation water is applied during only a part of each year and at variable rates; therefore, the actual rate of application is much greater than the average daily rate. For all other categories, the daily quantity of water that is withdrawn may be based on daily usage or more often, monthly usage that is averaged to a daily quantity.
+                            </p>
+
+                        </li>
+                        <li>Dataset
+                            <ul>
+                                <li><a href='http://waterdata.usgs.gov/ca/nwis/wu' target='_blank'>California Water Use Data</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+>>>>>>> origin/master
             </div>
 
 
