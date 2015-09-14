@@ -65,7 +65,7 @@ section.theme:hover {cursor:pointer; }
 
 /** top */
 
-#top .click {text-align:center;width:100%;  }
+#top .click {text-align:center;width:100%; margin-top:30px;  }
 #top .click div {position:relative; top:-20px; }
 #top table {font-size:1.3em; margin-bottom:10px;  }
 #top table td {text-align:left; padding-bottom:15px; color:#000000 !important; }
@@ -84,6 +84,10 @@ section.theme:hover {cursor:pointer; }
 #welcome ul li {  font-size:1.3em; font-weight:600; line-height:1.1em; padding-bottom:15px;   }
 #welcome ul.role {list-style:disc; width:90%;}
 #welcome ul.role li {float:left; width:50%; display:inline-block; }
+
+#welcome .row {margin-top:20px; }
+#welcome .row img {width:100px; }
+#welcome .row p {font-weight:600; line-height:1em; }
 
 /** about **/
 #about .list ul {list-style:disc; margin-left:20px; }

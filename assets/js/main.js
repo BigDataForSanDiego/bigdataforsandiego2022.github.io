@@ -66,10 +66,7 @@
 			toggleModal(target);
 		})
 
-		//all <A>
-		setTimeout(function(){
-			$("a").attr("target","_blank");
-		},1000)
+
 
 
 
@@ -83,6 +80,6 @@ function toggleModal(selector, options){
 	options=options || {}
 	options.backdrop=options.backdrop || true;
 	options.show=true;
-
+	
 	$(selector).modal(options);
 }
