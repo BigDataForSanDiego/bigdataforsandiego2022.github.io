@@ -22,7 +22,6 @@
 
 	//ready
 	$(function() {
-
 		var	$window = $(window),
 			$body = $('body');
 
@@ -66,6 +65,14 @@
 			console.log(target)
 			toggleModal(target);
 		})
+
+		//all <A>
+		setTimeout(function(){
+			$("a").attr("target","_blank");
+		},1000)
+
+
+
 
 	});
 })(jQuery);

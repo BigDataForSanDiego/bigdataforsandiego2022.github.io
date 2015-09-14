@@ -81,7 +81,7 @@ section.theme:hover {cursor:pointer; }
 /** welcom */
 #welcome {color:#000000; }
 #welcome ul {margin:0 auto; width:60%; margin-top:30px; display:inline-block;   }
-#welcome ul li {  font-size:1.3em; font-weight:600;  }
+#welcome ul li {  font-size:1.3em; font-weight:600; line-height:1.1em; padding-bottom:15px;   }
 #welcome ul.role {list-style:disc; width:90%;}
 #welcome ul.role li {float:left; width:50%; display:inline-block; }
 
