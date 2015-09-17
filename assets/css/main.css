@@ -94,6 +94,16 @@ section.theme:hover {cursor:pointer; }
 #about .list ul {list-style:disc; margin-left:20px; }
 #about .list {color:#eeeeee; }
 
+
+/** agenda */
+#agenda .container .table {background-color:#ffffff; margin-bottom:50px; color:#333333;  }
+#agenda .container .table td {padding:8px; }
+#agenda .container .table td:first-child {width:170px; }
+#agenda .container .table td:nth-child(3) {width:250px; }
+#agenda .container .table td p {padding:0px;margin:0px; }
+#agenda .container {text-align:left; }
+
+
 /* Box Model */
 
 	*, *:before, *:after {
