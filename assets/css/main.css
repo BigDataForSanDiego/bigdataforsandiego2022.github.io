@@ -67,12 +67,12 @@ section.theme:hover {cursor:pointer; }
 /** top */
 
 #top .click {text-align:center;width:100%; margin-top:30px;  }
-#top .click div {position:relative; top:-20px; }
-#top table {font-size:1.3em; margin-bottom:10px;  }
+#top .click div {position:relative; top:-20px; font-size:0.8em; }
+#top table {font-size:1.2em; margin-bottom:10px;  }
 #top table td {text-align:left; padding-bottom:15px; color:#000000 !important; }
 #top table td:first-child {font-weight:600; width:110px; }
-#top #top-title h2 {color:darkred; line-height:1.3em; font-size:2.2em;  }
-#top > .row {margin-top:15px; }
+#top #top-title h2 {color:darkred; line-height:1.3em; font-size:1.5em; }
+#top > .row { }
 /** tool */
 #tools .table td {width:50%; }
 
@@ -2143,6 +2143,10 @@ section.theme:hover {cursor:pointer; }
 				width: 70%;
 				height: auto;
 				margin: 0 auto 1.75em auto;
+			}
+
+			#top iframe {
+				height:300px !important;
 			}
 
 			#contact footer {
