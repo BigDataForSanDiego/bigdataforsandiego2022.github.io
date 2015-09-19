@@ -66,13 +66,13 @@ section.theme:hover {cursor:pointer; }
 
 /** top */
 
-#top .click {text-align:center;width:100%; margin-top:30px;  }
+#top .click {text-align:center;width:100%; margin-top:50px;  }
 #top .click div {position:relative; top:-20px; font-size:0.8em; }
 #top table {font-size:1.2em; margin-bottom:10px;  }
 #top table td {text-align:left; padding-bottom:15px; color:#000000 !important; }
 #top table td:first-child {font-weight:600; width:110px; }
-#top #top-title h2 {color:darkred; line-height:1.3em; font-size:1.5em; }
-#top > .row { }
+#top #top-title h2 {color:darkred; line-height:1.3em; font-size:1.5em; margin-top:50px;  }
+#top .row > div {padding-top:0px;  }
 /** tool */
 #tools .table td {width:50%; }
 
