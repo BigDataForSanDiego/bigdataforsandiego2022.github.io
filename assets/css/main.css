@@ -94,6 +94,12 @@ section.theme:hover {cursor:pointer; }
 #about .list ul {list-style:disc; margin-left:20px; }
 #about .list {color:#eeeeee; }
 
+/** mentor **/
+#mentors .media-body {text-align:left; padding-left:30px; color:#333333;   }
+#mentors .media {margin-bottom:25px; padding-bottom:25px; border-bottom:1px solid #cccccc;  }
+#mentors .media-heading span {font-size:0.8em; }
+#mentors .media-object {width:128px; max-height:128px;  }
+
 
 /** agenda */
 #agenda .container .table {background-color:#ffffff; margin-bottom:50px; color:#333333;  }
