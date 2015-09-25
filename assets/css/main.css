@@ -2009,6 +2009,14 @@ section.theme:hover {cursor:pointer; }
 				margin: 0;
 			}
 
+			#top iframe {
+				height:350px !important;
+			}
+
+			#top #top-title h2 {
+				margin-top:25px !important; 
+			}
+
 	}
 
 /* Mobile */
