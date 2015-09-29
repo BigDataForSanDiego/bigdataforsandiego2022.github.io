@@ -112,6 +112,16 @@ section.theme:hover {cursor:pointer; }
 #agenda .container {text-align:left; }
 
 
+/** judge */
+#judges img {max-width:100%; border-radius:50%; }
+#judges p {font-weight:bold; }
+#judges span {display:block; font-weight:normal; line-height:23px;   }
+
+
+nav .container-fluid {max-width:1200px; width:100%; margin:0 auto; }
+nav a {text-decoration:none; color:#dddddd !important; }
+nav .navbar-header {height:50px; }
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1708,7 +1718,7 @@ section.theme:hover {cursor:pointer; }
 				}
 
 /* Nav */
-
+/**
 	#nav {
 		background-color: #282828;
 		text-align: center;
@@ -1751,7 +1761,7 @@ section.theme:hover {cursor:pointer; }
 				border-right: solid 0.75em transparent;
 				border-top: solid 0.6em #282828;
 			}
-
+*/
 /* Articles */
 
 	#top .image {
@@ -1783,6 +1793,12 @@ section.theme:hover {cursor:pointer; }
 			#copyright a:hover {
 				color: #777;
 			}
+
+
+
+
+
+
 
 /* Desktop */
 
@@ -2152,6 +2168,8 @@ section.theme:hover {cursor:pointer; }
 			#nav a {
 				padding: 0.5em;
 			}
+
+			#nav button.navbar-toggle {width:45px !important; }
 
 		/* Articles */
 
