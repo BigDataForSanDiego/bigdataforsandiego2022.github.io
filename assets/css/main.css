@@ -63,6 +63,8 @@ section.theme:hover {cursor:pointer; }
 .modal-header {background-color:#8B0000 !important; color:#ffffff !important; }
 .modal-header * {color:#ffffff !important; }
 .modal a {color:#2D9EB2 !important; font-weight:600; }
+.modal .media-object {max-width:200px; max-height:200px; margin-right:30px;  }
+
 
 /** top */
 
