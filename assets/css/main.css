@@ -89,12 +89,15 @@ section.theme:hover {cursor:pointer; }
 #welcome ul.role li {float:left; width:50%; display:inline-block; }
 
 #welcome .row {margin-top:20px; }
-#welcome .row img {width:100px; }
+#welcome .row img {width:5em; }
 #welcome .row p {font-weight:600; line-height:1em; padding:10px;  text-shadow:0px 0px; display:block; word-break: break-word; white-space: normal;  }
 
 /** about **/
-#about .list ul {list-style:disc; margin-left:20px; }
-#about .list {color:#eeeeee; }
+#about .list {color:#eeeeee; text-align:left;}
+#about ul {list-style:disc; margin-left:20px; font-size:0.9em;  }
+#about ul li {line-height:25px; }
+#about .logo {text-align:center; margin-top:20px;  }
+#about .logo img {width:75%; }
 
 /** mentor **/
 #mentors .media-body {text-align:left; padding-left:30px; color:#111111;   }
@@ -115,12 +118,13 @@ section.theme:hover {cursor:pointer; }
 /** judge */
 #judges img {max-width:100%; border-radius:50%; }
 #judges p {font-weight:bold; }
-#judges span {display:block; font-weight:normal; line-height:23px;   }
+#judges span {display:block; font-weight:normal; line-height:1.4em; font-size:0.9em;    }
 
 
 nav .container-fluid {max-width:1200px; width:100%; margin:0 auto; }
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
+nav .navbar-header a:hover {background-color:transparent !important;  }
 
 /* Box Model */
 
