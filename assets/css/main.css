@@ -90,7 +90,7 @@ section.theme:hover {cursor:pointer; }
 
 #welcome .row {margin-top:20px; }
 #welcome .row img {width:100px; }
-#welcome .row p {font-weight:600; line-height:1em; }
+#welcome .row p {font-weight:600; line-height:1em; padding:10px;  text-shadow:0px 0px; display:block; word-break: break-word; white-space: normal;  }
 
 /** about **/
 #about .list ul {list-style:disc; margin-left:20px; }
