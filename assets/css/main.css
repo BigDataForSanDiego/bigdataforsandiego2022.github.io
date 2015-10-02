@@ -119,7 +119,7 @@ section.theme:hover {cursor:pointer; }
 #judges img {max-width:100%; border-radius:50%; }
 #judges p {font-weight:bold; }
 #judges span {display:block; font-weight:normal; line-height:1.4em; font-size:0.9em;    }
-
+#judgeCriteria {margin-top:50px; font-weight:bold;   }
 
 nav .container-fluid {max-width:1200px; width:100%; margin:0 auto; }
 nav a {text-decoration:none; color:#dddddd !important; }
