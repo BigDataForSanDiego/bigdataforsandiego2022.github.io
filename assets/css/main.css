@@ -81,6 +81,12 @@ section.theme:hover {cursor:pointer; }
 /** sponsors */
 #sponsors .row a img {width:60%; }
 
+/** winner */
+#winner span.icon {margin:1.5em 0 1.5em 0; }
+#winner .thumbnail a.btn {text-decoration:none; }
+#winner .thumbnail a.btn:hover {text-decoration:none; }
+#winner .row {margin-top:50px; }
+
 /** welcom */
 #welcome {color:#000000; }
 #welcome ul {margin:0 auto; width:60%; margin-top:30px; display:inline-block;   }
