@@ -86,7 +86,7 @@ section.theme:hover {cursor:pointer; }
 #winner .thumbnail a.btn {text-decoration:none; }
 #winner .thumbnail a.btn:hover {text-decoration:none; }
 #winner .row {margin-top:0px; }
-#winner .proposal {font-weight:bold; margin-top:50px; }
+#winner .proposal {font-weight:bold; margin-top:50px; margin-bottom:50px; }
 #winner .proposal li {font-size:1.2em; margin-top:15px; }
 #winner .proposal li a {text-decoration:none; }
 
