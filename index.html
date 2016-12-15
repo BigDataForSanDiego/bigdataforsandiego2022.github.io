@@ -11,10 +11,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    
+     
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->  
+    
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>        
+    
 </head>
 
 <body>
@@ -35,8 +48,8 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="#winner">Winner</a></li>
+          <ul id="dropmenu" class="nav navbar-nav">
+            <!--li><a href="#winner">Winner</a></li-->
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#theme">Themes</a></li>
             <!--<li><a href="#prize">Prizes</a></li>-->
@@ -48,18 +61,33 @@
             <li><a href="#judges">Judges</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="#about">About</a></li>
-            <li><a>Archive</a></li>
+            <li><a>Archive</a>
+	          <ul class="archive_child">
+	            <li><a href='http://bigdataforsandiego.github.io/archive/2015/'>2015</a></li>	            
+	            <!--li><a>2016</a></li-->
+	            <!--li><a>2017</a></li-->			            	
+	          </ul>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
+	<script>
+	$(function(){
+	    $('#dropmenu li').hover(function(){
+	        $("ul:not(:animated)", this).slideDown();
+	    }, function(){
+	        $("ul.archive_child",this).slideUp();
+	    });
+	});
+	</script>
 
 
     <!-- Top -->
     <div class="wrapper style1 first" style="padding: 100px 30px">
         <article class="container" id="top">
             <div class="row" style='width:100%; '>
-                <img src='images/title2017_3.png' style='width:100%; padding:0px; ' />
+                <img src='images/title2017_3.png' style="width:100%; padding:0px; margin-top: 10px" />
 
 
                 <div class='col-lg-8 col-md-7 col-xs-12 col-sm-6'>
@@ -3644,19 +3672,6 @@ We invite you to discover ways that you can leverage our technology and expertis
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
-
-
-
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/skel-viewport.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

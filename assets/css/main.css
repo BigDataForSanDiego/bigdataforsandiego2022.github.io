@@ -74,14 +74,17 @@ section.theme:hover {cursor:pointer; }
 #top table td {text-align:left; padding-bottom:15px; color:#000000 !important; }
 #top table td:first-child {font-weight:600; width:110px; }
 #top #top-title h2 {color:darkred; line-height:1.3em; font-size:1.5em; margin-top:30px;  }
-#top .row > div {padding-top:0px;  }
+#top .row > div {padding-top:0px; }
 /** tool */
 #tools .table td {width:50%; }
 
-/** sponsors */
+
+
+
+/** sponsors **/
 #sponsors .row a img {width:60%; }
 
-/** winner */
+/** winner **/
 #winner span.icon {margin:1.5em 0 1.5em 0; }
 #winner .thumbnail a.btn {text-decoration:none; }
 #winner .thumbnail a.btn:hover {text-decoration:none; }
@@ -90,7 +93,7 @@ section.theme:hover {cursor:pointer; }
 #winner .proposal li {font-size:1.2em; margin-top:15px; }
 #winner .proposal li a {text-decoration:none; }
 
-/** welcom */
+/** welcom **/
 #welcome {color:#000000; }
 #welcome ul {margin:0 auto; width:60%; margin-top:30px; display:inline-block;   }
 #welcome ul li {  font-size:1.3em; font-weight:600; line-height:1.1em; padding-bottom:15px;   }
@@ -103,9 +106,9 @@ section.theme:hover {cursor:pointer; }
 
 /** about **/
 #about .list {color:#eeeeee; text-align:left;}
-#about ul {list-style:disc; margin-left:20px; font-size:0.9em;  }
+#about ul {list-style:disc; margin-left:20px; font-size:0.9em; }
 #about ul li {line-height:25px; }
-#about .logo {text-align:center; margin-top:20px;  }
+#about .logo {text-align:center; margin-top:20px; }
 #about .logo img {width:75%; }
 
 /** mentor **/
@@ -115,7 +118,7 @@ section.theme:hover {cursor:pointer; }
 #mentors .media-object {width:128px; max-height:128px;  }
 
 
-/** agenda */
+/** agenda **/
 #agenda .container .table {background-color:#ffffff; margin-bottom:50px; color:#111111;  }
 #agenda .container .table td {padding:8px; }
 #agenda .container .table td:first-child {width:170px; }
@@ -124,13 +127,64 @@ section.theme:hover {cursor:pointer; }
 #agenda .container {text-align:left; }
 
 
-/** judge */
+/** judge **/
 #judges img {max-width:100%; border-radius:50%; }
 #judges p {font-weight:bold; }
 #judges span {display:block; font-weight:normal; line-height:1.4em; font-size:0.9em;    }
 #judgeCriteria {margin-top:50px; font-weight:bold;   }
 
-nav .container-fluid {max-width:1200px; width:100%; margin:0 auto; }
+
+/** archive **/
+#archive img {max-width:100%; border-radius:50%; }
+#archive p {font-weight:bold; }
+#archive span {display:block; font-weight:normal; line-height:1.4em; font-size:0.9em;    }
+#archive {margin-top:50px; font-weight:bold;   }	
+
+
+	
+/*
+ul#archive {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+ul#archive li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+    background-color: #555555;
+    display: block;
+}
+*/
+ul.archive_child{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top:38px;
+    left:35px;
+    margin: 0 !important;
+    /*margin-left: 0px;*/
+    padding: 0 !important;
+    width:60%;
+    /*background-color: #222;*/ 
+}
+ul.archive_child li a{ 
+	padding:5px !important; 
+	margin:1px !important;
+
+    font-weight:normal; line-height:1.4em; font-size:0.9em;
+    display: block;
+    background-color: #222; 
+    /*display: block;*/
+}
+li.archive_child a:hover{
+  font-weight:normal; line-height:1.4em; font-size:0.9em; text-decoration:none; color:#dddddd !important;
+}
+
+nav .container-fluid {max-width:1200px; width:100%; margin:0 auto 5px auto; }
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
 nav .navbar-header a:hover {background-color:transparent !important;  }
@@ -1710,25 +1764,19 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
+		.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+			color: #fff;
+		}
+		
+		.wrapper.style4 form input[type=text], .wrapper.style4 form input[type=password], .wrapper.style4 form select, .wrapper.style4 form textarea {
+			border: none;
+			background: #282828;
+		}
+		
+		.wrapper.style4 form input[type=text]:focus, .wrapper.style4 form input[type=password]:focus, .wrapper.style4 form select:focus, .wrapper.style4 form textarea:focus {
+			background: #252525;
+		}
 
-			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
-			}
-
-			.wrapper.style4 form input[type=text],
-			.wrapper.style4 form input[type=password],
-			.wrapper.style4 form select,
-			.wrapper.style4 form textarea {
-				border: none;
-				background: #282828;
-			}
-
-				.wrapper.style4 form input[type=text]:focus,
-				.wrapper.style4 form input[type=password]:focus,
-				.wrapper.style4 form select:focus,
-				.wrapper.style4 form textarea:focus {
-					background: #252525;
-				}
 
 /* Nav */
 /**
