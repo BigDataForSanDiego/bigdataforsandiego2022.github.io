@@ -49,9 +49,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul id="dropmenu" class="nav navbar-nav">
+          	<li><a href="#top">Home</a></li>
             <!--li><a href="#winner">Winner</a></li-->
             <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#theme">Themes</a></li>
+            <li><a href="#theme">Theme</a></li>
             <!--<li><a href="#prize">Prizes</a></li>-->
             <!--<li><a href="#cost">Cost</a></li>-->
             <li><a href="#dataset">Datasets</a></li>
@@ -89,7 +90,6 @@
             <div class="row" style='width:100%; '>
                 <img src='images/title2017_3.png' style="width:100%; padding:0px; margin-top: 10px" />
 
-
                 <div class='col-lg-8 col-md-7 col-xs-12 col-sm-6'>
                     <iframe width="100%"  src="https://www.youtube.com/embed/mg_ungOS83U?controls=1" frameborder="0" allowfullscreen style='width:100%; height:450px; margin-top:10px;  '></iframe>
                 </div>
@@ -125,7 +125,8 @@
                             <td>Contact: </td>
                             <td>
                                 <a href="mailto:aschmitz@mail.sdsu.edu">Prof. Amy Schmitz Weiss</a>
-
+                                <a href="mailto:aschmitz@mail.sdsu.edu">Prof. Ming-Hsiang Tsou</a>
+                                <a href="mailto:anara@mail.sdsu.edu">Prof. Atsushi Nara</a>
                             </td>
                         </tr>
                         <tr>
@@ -142,8 +143,9 @@
 
                 <div class='click'>
                     <!--a href="http://bigdataforsandiego.devpost.com/" class="button alert" button style="background-color:darkred" target='_blank'>Register Site</a-->
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9cub5zIL8Hah7V0YNRNm488eyZx1MPXsJsM0E0UOv3CbzQQ/viewform?usp=send_form" class="button alert" button style="background-color:darkred" target='_blank'>Register Site</a>
-                                                       
+                    <!--a href="https://docs.google.com/forms/d/e/1FAIpQLSc9cub5zIL8Hah7V0YNRNm488eyZx1MPXsJsM0E0UOv3CbzQQ/viewform?usp=send_form" class="button alert" button style="background-color:darkred" target='_blank'>Register Site: Open Soon</a-->
+                    <a class="button alert" button style="background-color:darkred" target='_blank'>Register Site: Open Soon!</a>
+                                                         
                     <div>Organized by <a href='http://humandynamics.sdsu.edu' target='_blank'>Human Dynamic at Mobile Age</a>, SDSU</div>
                 </div>
             </div>
@@ -270,10 +272,7 @@
                 <h1><font color="darkred">Gallery</font></h1>
                 <p><font color="black"></font>
             </header>
-
             <div class='container'>
-
-			  <script>/*
               <div class='row'>
 
                   <div class='col-lg-3 col-md-4 col-xs-4'>
@@ -338,7 +337,6 @@
                   </div>
 
               </div> <!--end row-->
-			*/</script>
             </div>
         </article>
     </div>
@@ -400,7 +398,7 @@
     <div class="wrapper style3" style="padding: 100px 30px" font color="black">
         <article id="theme">
             <header>
-                <h1><font color="darkred">2017 Hackathon Themes</font></h1>
+                <h1><font color="darkred">2017 Hackathon Theme</font></h1>
                 <!--p><font color="black">The hackathon will focus on three themes:</font-->
                 <p><font color="black">The hackathon will focus on one theme:</font>                	
                 </p>
@@ -420,7 +418,7 @@
                     <div class="4u 12u(mobile)" >
                         <section class="box style1 theme" target='#modal_theme_public_health' title='click to see challenging questions' > 
                             <img src="images/public_health_theme_notext.png" alt="" style="width: 50%; height: 50%" />
-                            <h3>Health</h3>
+                            <h3>Public Health</h3>
                             <p></p>
                         </section>
                     </div>
@@ -436,9 +434,9 @@
                 </div>
             </div>
             <footer>
-                <p><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;Your challenge is to create an app, platform, and/or technology that can tie into one of the three themes above using datasets provided via our special GitHub site.<br><br><b>How will you answer the questions and win the prizes?</b></font>
+                <p><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;Your challenge is to create an app, platform, and/or technology that can tie into the public health theme above using datasets provided via our special GitHub site.</b></font>
                 </p>
-                <a href="#theme" class="button alert" button style="background-color:darkred">Click the above theme icon to know the challenging questions!</a>
+                <a href="#theme" class="button alert" button style="background-color:darkred">Click the above theme icon to know the exemplary key issues!</a>
             </footer>
         </article>
     </div>
@@ -541,19 +539,31 @@
                     <!-- Table -->
                     <table class="table" style="text-align:left">
                         <tr>
-                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_sanDag")'>SANDAG GIS databases online</a>
+                            <td>1. <a href="javascript:void(0)" onclick='toggleModal("#modal_sd_livewell")'>San Diego Live Well Data Portal</a>
+                            </td>
+                        </tr>                    	
+                        <tr>
+                            <td>2. <a href="javascript:void(0)" onclick='toggleModal("#modal_ca_hhs")'>California Health and Human Services Open Data Portal</a>
+                            </td>
+                        </tr>  
+                         <tr>
+                            <td>3. <a href="javascript:void(0)" onclick='toggleModal("#modal_ucsd_mmc")'>UCSD Moores Cancer Center</a>
+                            </td>
+                        </tr>                         
+                        <tr>
+                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_sanDag")'>SANDAG GIS databases online</a>
                             </td>
                         </tr>
                         <tr>
-                            <td>2. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdDataSurfer")'>SANDAG Data Warehouse - Data Surfer</a>
+                            <td>5. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdDataSurfer")'>SANDAG Data Warehouse - Data Surfer</a>
                             </td>
                         </tr>
                         <tr>
-                            <td>3. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdDataLib")'>San Diego Regional Data Library Repository</a>
+                            <td>6. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdDataLib")'>San Diego Regional Data Library Repository</a>
                             </td>
                         </tr>
                         <tr>
-                            <td>4. <a href="javascript:void(0)" onclick='toggleModal("#modal_CHHSOpenData")'>California Health and Human Services (CHHS) Open Data</a>
+                            <td>7. <a href="javascript:void(0)" onclick='toggleModal("#modal_CHHSOpenData")'>California Health and Human Services (CHHS) Open Data</a>
                             </td>
                         </tr>
                     </table>
@@ -1332,6 +1342,19 @@
                 </div>
               </div>
 
+              <div class="media">
+                <div class="media-left media-middle">
+                    <img class="media-object" src="http://users.sdsc.edu/~altintas/ilkay.jpg" data-holder-rendered="true" style='border-radius:50%;' >
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">Dr. Ilkay Altintas<span> (San Diego Supercomputer Center)</span></h3>
+                  <h4>Chief Data Officer</h4>
+                  Ilkay Altintas is the Director for the Center of Excellence in Workflows for Data Science at the San Diego Supercomputer Center (SDSC), UCSD. Since joining SDSC in 2001, she has worked on different aspects of scientific workflows as a principal investigator and in other leadership roles across a wide range of cross-disciplinary NSF, DOE, NIH and Moore Foundation projects. She is a co-initiator of and an active contributor to the open-source Kepler Scientific Workflow System, and the co-author of publications related to eScience at the intersection of scientific workflows, provenance, distributed computing, bioinformatics, observatory systems, conceptual data querying, and software modeling.
+                  <a href='http://swat.sdsc.edu/ilkay/' target='_blank'>http://swat.sdsc.edu/ilkay/</a>
+                </div>
+              </div>
+
+
 		      <!--
 
               <div class="media">
@@ -1743,6 +1766,108 @@
 
 
 
+
+    <!-- modal-sd_livewell -->
+    <div class="modal fade" id='modal_sd_livewell' tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">San Diego Live Well Data Portal</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>This data access portal will take you to the most recent demographic, economic, behavioral, and health data available by communities in San Diego County. </p>
+                        </li>
+                        <li>Dataset
+                            <ul>
+                                <li><a href='https://data.livewellsd.org/' target='_blank'>San Diego Live Well Data Portal</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+    <!-- modal-ca_hhs -->
+    <div class="modal fade" id='modal_ca_hhs' tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">California Health and Human Services Open Data Portal</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>The California Health and Human Services Agency (CHHS) has launched its Open Data Portal initiative in order to increase public access to one of the State’s most valuable assets – non-confidential health and human services data. Its goals are to spark innovation, promote research and economic opportunities, engage public participation in government, increase transparency, and inform decision-making. "Open Data" describes data that are freely available, machine-readable, and formatted according to national technical standards to facilitate visibility and reuse of published data.</p>
+                            <p>The portal offers access to standardized data that can be easily retrieved, combined, downloaded, sorted, searched, analyzed, redistributed and re-used by individuals, business, researchers, journalists, developers, and government to process, trend, and innovate.</p>
+                        </li>
+                        <li>Dataset
+                            <ul>
+                                <li><a href='https://chhs.data.ca.gov/' target='_blank'>California Health and Human Services Open Data Portal</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+
+    <!-- modal-ucsd_mcc -->
+    <div class="modal fade" id='modal_ucsd_mmc' tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">UCSD Moores Cancer Center</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <p>Established in 1978, Moores Cancer Center is one of just 45 National Cancer Institute-designated Comprehensive Cancer Centers in the United States, and the only one in the San Diego region. Such centers are prominent among the leading institutions in the nation dedicated to scientific innovation and clinical excellence. This designation — reserved for centers with the highest achievements in cancer research, clinical care, education and community contributions — makes an enormous difference to our patients. Studies show that outcomes are better at NCI-designated centers.</p>
+                        </li>
+                        <li>Link
+                            <ul>
+                                <li><a href='https://health.ucsd.edu/specialties/cancer/Pages/default.aspx' target='_blank'>UCSD Moores Cancer Center</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
     <!-- modal-CADeptABC -->
     <div class="modal fade" id='modal_CADeptABC' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -1863,8 +1988,6 @@
     <!-- /.modal -->
 
 
-
-
     <!-- modal-SDCountyFS -->
     <div class="modal fade" id='modal_SDCountyFS' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -1929,7 +2052,6 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
-
 
 
     <!-- modal-NOAACOD -->
@@ -2144,7 +2266,6 @@
     <!-- /.modal -->
 
 
-
     <!-- modal-USGSWaterData -->
     <div class="modal fade" id='modal_USGSWaterData' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -2176,7 +2297,6 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
-
 
 
     <!-- modal-USDrought -->
@@ -2212,6 +2332,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal-CHHSOpenData -->
     <div class="modal fade" id='modal_CHHSOpenData' tabindex="-1" role="dialog">
@@ -2317,6 +2438,7 @@
     </div>
     <!-- /.modal -->
 
+
     <!-- modal-sdDataSurfer -->
     <div class="modal fade" id='modal_sdDataSurfer' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -2346,6 +2468,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal-sdCrime -->
     <div class="modal fade" id='modal_sdCrime' tabindex="-1" role="dialog">
@@ -3050,14 +3173,15 @@
                     <h4 class="modal-title">Public Health</h4>
                 </div>
                 <div class="modal-body">
+                	<h5>Exemplary Key issues:</h5>
                     <ul>
-                        <li>What are the most concerning public health issues for Californians today?</li>
-                        <li>Where can we find the data and analytical tools for the most concerning public health issues in California?</li>
-                        <li>How can we analyze public health data and provide some recommendations for intervention and policy changes?</li>
-                        <li>How can we share useful public health information and analytical tools in our local community?</li>
-                        <li>How does gentrification contribute to public health issues in California?</li>
-                        <li>What chronic diseases affect Californians and how can these conditions be managed daily?</li>
-                        <li>How can Californians maintain a daily health regimen?</li>                      	
+                        <li>Disease Outbreaks and Monitoring.</li>
+                        <li>WPromoting Healthy Behaviors and Exercises.</li>
+                        <li>Obesity and Food Environment.</li>
+                        <li>Cancer Registry Data and Disparities.</li>
+                        <li>Vaccine Exemption.</li>
+                        <li>Mobile Health Monitor Devices.</li>
+                        <li>Health Communication and Campaign.</li>                      	
                     </ul>
                 </div>
                 <div class="modal-footer">
@@ -3069,10 +3193,6 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
-
-
-
-
 
 
     <!-- modal-theme-water drought -->
@@ -3237,8 +3357,6 @@
     <!-- /.modal -->
 
 
-
-
     <!-- modal-speaker-JimBerry -->
     <div class="modal fade" id='modal_speaker_lauraMillan' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -3279,6 +3397,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal-speaker-JimBerry -->
     <div class="modal fade" id='modal_speaker_xavierLeonard' tabindex="-1" role="dialog">
@@ -3322,6 +3441,7 @@
     </div>
     <!-- /.modal -->
 
+
     <!-- modal-speaker-AndrellBower -->
     <div class="modal fade" id='modal_speaker_andrellBower' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -3361,6 +3481,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal-speaker-stephenHeverly -->
     <div class="modal fade" id='modal_speaker_stephenHeverly' tabindex="-1" role="dialog">
@@ -3409,6 +3530,7 @@
     </div>
     <!-- /.modal -->
 
+
     <!-- modal-speaker-bennettCummings -->
     <div class="modal fade" id='modal_speaker_bennettCummings' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -3455,6 +3577,7 @@
     </div>
     <!-- /.modal -->
 
+
     <!-- modal-speaker-esicBusboom -->
     <div class="modal fade" id='modal_speaker_ericBusboom' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -3486,6 +3609,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal-sponsor-quartic -->
     <div class="modal fade" id='modal_sponsor_quartic' tabindex="-1" role="dialog">
@@ -3534,6 +3658,7 @@
     </div>
     <!-- /.modal -->
 
+
     <!-- modal-sponsor-esri -->
     <div class="modal fade" id='modal_sponsor_esri' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -3569,6 +3694,7 @@ We invite you to discover ways that you can leverage our technology and expertis
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal_speaker_joaquinRamirez -->
     <div class="modal fade" id='modal_sponsor_technosylva' tabindex="-1" role="dialog">
@@ -3609,6 +3735,7 @@ We invite you to discover ways that you can leverage our technology and expertis
     </div>
     <!-- /.modal -->
 
+
     <!-- modal-sponsor-inews -->
     <div class="modal fade" id='modal_sponsor_inews' tabindex="-1" role="dialog">
         <div class="modal-dialog">
@@ -3640,6 +3767,7 @@ We invite you to discover ways that you can leverage our technology and expertis
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
 
     <!-- modal-sponsor-jms -->
     <div class="modal fade" id='modal_sponsor_jms' tabindex="-1" role="dialog">
