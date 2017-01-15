@@ -131,7 +131,7 @@ section.theme:hover {cursor:pointer; }
 #judgeCriteria {margin-top:50px; font-weight:bold;   }
 
 /*nav .container-fluid {max-width:1200px; width:100%; margin:0 auto; }*/
-nav .container-fluid {max-width:1300px; width:100%; margin:0 auto; }
+nav .container-fluid {max-width:1220px; width:100%; margin:0 auto; }
 
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
