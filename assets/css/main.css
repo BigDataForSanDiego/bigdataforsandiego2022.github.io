@@ -304,6 +304,14 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 
 	}
 
+
+/* col */
+	.col-centered{
+	    float: none;
+	    margin: 0 auto;
+	}
+
+
 /* Grid */
 
 	.row {
@@ -1552,6 +1560,7 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 		ul.default li {
 			padding-left: 0.5em;
 		}
+
 
 	ul.social {
 		cursor: default;
