@@ -184,7 +184,8 @@ li.archive_child a:hover{
   font-weight:normal; line-height:1.4em; font-size:0.9em; text-decoration:none; color:#dddddd !important;
 }
 
-nav .container-fluid {max-width:1200px; width:100%; margin:0 auto 5px auto; }
+/*nav .container-fluid {max-width:1200px; width:100%; margin:0 auto 5px auto; }*/
+nav .container-fluid {max-width:1400px; width:100%; margin:0 auto 5px auto;}
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
 nav .navbar-header a:hover {background-color:transparent !important;  }
