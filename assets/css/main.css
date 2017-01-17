@@ -198,6 +198,14 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 		box-sizing: border-box;
 	}
 
+/* Vertical Center */
+	.vcenter {
+	    display: inline-block;
+	    vertical-align: middle;
+	    float: none;
+	}
+
+
 /* Containers */
 
 	.container {
@@ -226,6 +234,7 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 	.container {
 		width: 960px;
 	}
+
 
 	@media screen and (min-width: 737px) {
 
