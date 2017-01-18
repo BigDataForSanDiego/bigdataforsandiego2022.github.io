@@ -128,8 +128,8 @@
                             <td>
                                 <!--a href="mailto:aschmitz@mail.sdsu.edu">Prof. Amy Schmitz Weiss</a-->
                                 <!--a href="mailto:aschmitz@mail.sdsu.edu">Prof. Ming-Hsiang Tsou</a-->                            	
-                                <a href="mailto:aschmitz@mail.sdsu.edu">Prof. Amy Schmitz Weiss</a>,&nbsp
-                                <a href="mailto:mtsou@mail.sdsu.edu">Prof. Ming-Hsiang Tsou</a>,&nbsp
+                                <a href="mailto:aschmitz@mail.sdsu.edu">Prof. Amy Schmitz Weiss</a><br>
+                                <a href="mailto:mtsou@mail.sdsu.edu">Prof. Ming-Hsiang Tsou</a><br>
                                 <a href="mailto:anara@mail.sdsu.edu">Prof. Atsushi Nara</a>
                             </td>
                         </tr>
@@ -137,7 +137,6 @@
                             <td>Github: </td>
                             <td>
                                 <a href="https://github.com/BigDataForSanDiego" target='_blank'>Github</a>
-
                             </td>
                         </tr>
                     </table>
@@ -147,10 +146,13 @@
 
                 <div class='click'>
                     <!--a href="http://bigdataforsandiego.devpost.com/" class="button alert" button style="background-color:darkred" target='_blank'>Register Site</a-->
-                    <!--a href="https://docs.google.com/forms/d/e/1FAIpQLSckVrzAeByaNc8DAeXWI5xi3Q9P2LgIMjM1oT4KDRaRmORiBw/viewform" class="button alert" button style="background-color:darkred" target='_blank'>Register Site: Open Soon</a-->
-                    <a class="button alert" button style="background-color:darkred" target='_blank'>Register Site: Open Soon!</a>
-                                                         
-                    <div>Organized by <a href='http://humandynamics.sdsu.edu' target='_blank'>Human Dynamic at Mobile Age</a>, SDSU</div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSckVrzAeByaNc8DAeXWI5xi3Q9P2LgIMjM1oT4KDRaRmORiBw/viewform" class="button alert" button style="background-color:darkred" target='_blank'>Register Site</a>
+                    <!--a class="button alert" button style="background-color:darkred" target='_blank'>Register Site: Open Soon!</a-->
+                     <p>Participants must register for the event by <b><font color="darkred">Feb 15, 2017</font></b>.</p>
+                                                        
+                	<div style="font-size:1em;margin-top:2em">
+                		Organized by <a href='http://humandynamics.sdsu.edu' target='_blank'>Human Dynamic at Mobile Age</a>&nbsp@&nbspSDSU
+                	</div>                    
                 </div>
             </div>
 
@@ -350,7 +352,7 @@
 						<b>How will you answer the questions and win the prizes?</b>
 					</font>					
 				</p>            	
-                <a href="#theme" class="button alert" button style="background-color:darkred">Click the above theme icon to know the exemplary key issues and challenging questions!</a>
+                <a href="#theme" onclick='toggleModal("#modal_theme_public_health")' class="button alert" button style="background-color:darkred">Click here to see the challenging questions for this hackathon!</a>              
             </footer>
         </article>
     </div>
@@ -379,7 +381,7 @@
             <header>
                 <h1><font color="darkred">Prizes</font></h1>
                 <p><b><font color="black">Teams will have an opportunity to win awards for the best overall project.</b>
-                    <br>Just create an app, platform and/or technology that can tie into one of the three themes to win the prizes!
+                    <br>Just create an app, platform and/or technology that can tie into the public heath theme to win the prizes!                
                     <br>
                     </font>
                 </p>
@@ -421,9 +423,9 @@
 
     <!-- Teamwork -->
     <div class="wrapper style1" style="padding: 100px 30px">
-        <article id="Teamwork">
-            <div class="container" >
-                <h1><font color="darkred">Teamwork</font></h1>
+		<article id="Teamwork">
+        	<div class="container" >
+            	<h1><font color="darkred">Teamwork</font></h1>
                 <header>
                 	<p>
                 		<font color="black">
@@ -433,17 +435,27 @@
 						</font>
                 	</p>
                </header>
-               <ul style="padding-left:0; margin-left:0; list-style-type: disc; list-style-position: inside;">
-               	<!--font size="4" color="black" ><b-->
-               	<font color="black" ><b>
-               	<li>Journalistic, creative or innovative ideas</li>
-               	<li>Business or marketing savvy</li>
-               	<li>Data sense or math/statistics concepts</li>
-               	<li>Public health domain knowledge</li>
-               	<li>Computational Linguistics or Digital Humanities skills</li>
-               	<li>Mapping or programming skills</li>
-               	</b></font>               	
-               </ul>
+               <div class="container">
+	           		<ul style="padding-left:0; margin-left:0; list-style-type: disc; list-style-position: inside;">
+		               	<!--font size="4" color="black" ><b-->
+		               	<font color="black" ><b>
+		               	<li>Journalistic, creative or innovative ideas</li>
+		               	<li>Business or marketing savvy</li>
+		               	<li>Data sense or math/statistics concepts</li>
+		               	<li>Public health domain knowledge</li>
+		               	<li>Computational Linguistics or Digital Humanities skills</li>
+		               	<li>Mapping or programming skills</li>
+		               	</b></font>               	
+	           		</ul>
+       		   </div>
+               <footer>
+	                <div class="row">
+	                    <div class="col-md-8 col-md-offset-2">
+	                    <!--div class="col-md-6 col-md-offset-3"-->
+	                      <img src="images/teamwork.png" alt="" style="width: 100%; height: 100%" />
+						</div>
+					</div>
+	           </footer>
             </div>
         </article>
     </div>
