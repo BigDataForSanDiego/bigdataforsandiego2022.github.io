@@ -185,7 +185,7 @@ li.archive_child a:hover{
 }
 
 /*nav .container-fluid {max-width:1200px; width:100%; margin:0 auto 5px auto; }*/
-nav .container-fluid {max-width:1450px; width:100%; margin:0 auto 0 auto;}
+nav .container-fluid {max-width:1460px; width:100%; margin:0 auto 0 auto;}
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
 nav .navbar-header a:hover {background-color:transparent !important;  }
