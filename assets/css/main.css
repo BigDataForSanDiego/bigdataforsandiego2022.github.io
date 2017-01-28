@@ -185,7 +185,7 @@ li.archive_child a:hover{
 }
 
 /*nav .container-fluid {max-width:1200px; width:100%; margin:0 auto 5px auto; }*/
-nav .container-fluid {max-width:1400px; width:100%; margin:0 auto 0 auto;}
+nav .container-fluid {max-width:1450px; width:100%; margin:0 auto 0 auto;}
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
 nav .navbar-header a:hover {background-color:transparent !important;  }
@@ -1572,6 +1572,7 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 		}
 
 
+
 	ul.social {
 		cursor: default;
 		margin: 0;
@@ -2000,7 +2001,8 @@ nav .navbar-header a:hover {background-color:transparent !important;  }
 				-webkit-transition: background-color .2s ease-in-out;
 				-ms-transition: background-color .2s ease-in-out;
 				transition: background-color .2s ease-in-out;
-				padding: 0.2em 1em 0.2em 1em;
+				/*padding: 0.2em 1em 0.2em 1em;*/
+				padding: 0.2em 0.75em 0.2em 0.75em;
 				margin: 0.6em 0.2em 0.6em 0.2em;
 				font-weight: 600;
 				border-radius: 8px;
