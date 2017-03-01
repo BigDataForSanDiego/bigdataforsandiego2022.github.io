@@ -92,6 +92,9 @@ section.theme:hover {cursor:pointer; }
 #winner .proposal {font-weight:bold; margin-top:50px; margin-bottom:50px; }
 #winner .proposal li {font-size:1.2em; margin-top:15px; }
 #winner .proposal li a {text-decoration:none; }
+#winner h2 {color:darkred; line-height:1.3em; font-size:1.2em; margin-top:30px;}
+#winner h2_nom {color:darkred; line-height:1.3em; font-size:1.2em;}
+
 
 /** welcom **/
 #welcome {color:#000000; }
@@ -185,7 +188,7 @@ li.archive_child a:hover{
 }
 
 /*nav .container-fluid {max-width:1200px; width:100%; margin:0 auto 5px auto; }*/
-nav .container-fluid {max-width:1460px; width:100%; margin:0 auto 0 auto;}
+nav .container-fluid {max-width:1260px; width:100%; margin:0 auto 0 auto;}
 nav a {text-decoration:none; color:#dddddd !important; }
 nav .navbar-header {height:50px; }
 nav .navbar-header a:hover {background-color:transparent !important;  }
