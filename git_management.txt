@@ -1,0 +1,29 @@
+# git version
+git --version
+
+# first time
+git remote -v
+git init
+git remote add origin https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io.git
+
+git remote -v
+
+# reset remote origin
+git remote set-url origin https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io.git
+
+
+# add all files
+git add .
+
+# commit
+git commit -m "v0.02"
+
+# push
+git remote -v
+git push origin master
+
+
+#git pull
+git pull origin master
+
+
