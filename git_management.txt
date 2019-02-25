@@ -9,8 +9,9 @@ git remote add origin https://github.com/BigDataForSanDiego/bigdataforsandiego.g
 git remote -v
 
 # reset remote origin
-git remote set-url origin https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io.git
-
+# git remote set-url origin git@github.com:username/repo.git
+git remote set-url origin https://github.com:anarahdma/BigDataForSanDiego/bigdataforsandiego.github.io.git
+# git remote set-url origin https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io.git
 
 # add all files
 git add .
