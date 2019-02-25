@@ -51,6 +51,16 @@
 
 section.theme:hover {cursor:pointer; }
 
+/** ul*/
+ul.asterisk li {
+	list-style-type: none;
+	text-indent: -1em;
+}
+ul.asterisk li:before {
+	display: inline;
+	content: "*";
+}
+
 
 /** modal */
 .modal-dialog {margin-top:100px; max-width:80%; min-width:40%; height:400px; overflow-x:hidden; overflow-y:auto; height:auto;  }
