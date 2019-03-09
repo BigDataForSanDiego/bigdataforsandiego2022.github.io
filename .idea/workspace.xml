@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34489ae-61ae-4c95-8393-f5539fc3843d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="git_management.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18428">
+              <caret line="1084" column="32" lean-forward="false" selection-start-line="1084" selection-start-column="32" selection-end-line="1084" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#article#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#article#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#article#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git_management.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git_management.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -31,6 +46,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -38,8 +60,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1993" />
-    <option name="y" value="53" />
+    <option name="x" value="1459" />
+    <option name="y" value="68" />
     <option name="width" value="1573" />
     <option name="height" value="1023" />
   </component>
@@ -92,6 +114,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/bigdataforsandiego.github.io/index.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -105,15 +135,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552100309385</updated>
-      <workItem from="1552100312727" duration="31000" />
+      <workItem from="1552100312727" duration="2505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31000" />
+    <option name="totallyTimeSpent" value="2505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1993" y="53" width="1573" height="1023" extended-state="0" />
+    <frame x="1459" y="68" width="1573" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -154,9 +184,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/git_management.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18428">
+          <caret line="1084" column="32" lean-forward="false" selection-start-line="1084" selection-start-column="32" selection-end-line="1084" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#article#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#article#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#article#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
