@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d34489ae-61ae-4c95-8393-f5539fc3843d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/BigDataHackathon2019_ProjectSubmissionForm_Team000.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/Hackathon-Promot-Img-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/big_data_2019.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/hdma.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/hdma2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/hdma3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/presentation_schedule.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/proposal_submission_form.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="d34489ae-61ae-4c95-8393-f5539fc3843d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -81,8 +67,8 @@
       <file leaf-file-name="git_management.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/git_management.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="493">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552100309385</updated>
       <workItem from="1552100312727" duration="9645000" />
-      <workItem from="1552569365915" duration="7317000" />
+      <workItem from="1552569365915" duration="7487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16962000" />
+    <option name="totallyTimeSpent" value="17132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="0" width="1573" height="1023" extended-state="0" />
@@ -321,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/git_management.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
