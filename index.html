@@ -553,16 +553,20 @@
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
-                           <!-- <b>Smart Health</b> -->
+                           <b>Smart Health</b> 
                         </div> 
                         <!--div class="panel-body">
                             <b>Question 1:</b> How can we share useful public health information and web analytical tools for improve public health in San Diego?
                             <br>
                             <b>Question 2:</b> What chronic diseases affect San Diegans and how can these conditions be managed daily?
-                        </div>
+                        </div -->
                         <!-- Table -->
                         <table class="table" style="text-align:left">
                             <tr>
+				<td>
+                                    0. <a href="javascript:void(0)" onclick='toggleModal("#modal_edstats")'>CMS synthetic data</a> <br>
+	
+                                </td>
                                 <td>
                                     1. <a href="javascript:void(0)" onclick='toggleModal("#modal_edstats")'>AskCHISNE</a>
                                 </td>
@@ -571,9 +575,7 @@
                                 <td>
                                     2. <a href="javascript:void(0)" onclick='toggleModal("#modal_edstats")'>California HHS Data Portal</a>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td>
+				<td>
                                     3. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdhhs")'>San Diego County HHS</a>
                                 </td>
                             </tr>
@@ -581,18 +583,23 @@
                                 <td>
                                     4. <a href="javascript:void(0)" onclick='toggleModal("#modal_ces")'>Consumer Expenditures Survey</a>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td>
+				 <td>
                                     5. <a href="javascript:void(0)" onclick='toggleModal("#modal_fooddesert")'>Neighborhood GIS-Food Desert (SCALE SD)</a>
                                 </td>
-                            </tr>
-							<tr>
+                            </tr>			
+                        </table>
+                    </div>
+			
+                    <!-- City Subtheme; - -->
+		   <div class="panel panel-default">
+			<div class="panel-heading">
+                           <b>City</b> 
+                        </div>
+	                <table class="table" style="text-align:left">
+			   <tr>
                                 <td>
                                     6. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdplan")'>San Diego Planning Database</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     7. <a href="javascript:void(0)" onclick='toggleModal("#modal_healthyplaces")'>Healthy Places Index</a>
                                 </td>
@@ -601,8 +608,6 @@
                                 <td>
                                     8. <a href="javascript:void(0)" onclick='toggleModal("#modal_sangis")'>SANGIS</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     9. <a href="javascript:void(0)" onclick='toggleModal("#modal_sandag")'>SANDAG</a>
                                 </td>
@@ -611,8 +616,6 @@
                                 <td>
                                     10. <a href="javascript:void(0)" onclick='toggleModal("#modal_datasd")'>DataSD</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     11. <a href="javascript:void(0)" onclick='toggleModal("#modal_bike")'>Bike Route</a>
                                 </td>
@@ -621,18 +624,23 @@
                                 <td>
                                     12. <a href="javascript:void(0)" onclick='toggleModal("#modal_districts")'>Districts</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     13. <a href="javascript:void(0)" onclick='toggleModal("#modal_library")'>Library Locations</a>
                                 </td>
                             </tr>
-							<tr>
+			</table>
+		    </div>
+
+                    <!-- Environment subtheme; - -->
+		  <div class="panel panel-default">
+			<div class="panel-heading">
+                           <b>Environment</b> 
+                        </div>
+			    <table class="table" style="text-align:left">
+			     <tr>
                                 <td>
                                     14. <a href="javascript:void(0)" onclick='toggleModal("#modal_waterproject")'>Water project datasets</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     15. <a href="javascript:void(0)" onclick='toggleModal("#modal_epaair")'>EPA Air Quality Data</a>
                                 </td>
@@ -641,8 +649,6 @@
                                 <td>
                                     16. <a href="javascript:void(0)" onclick='toggleModal("#modal_ceden")'>California Environmental Data Exchange Network</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     17. <a href="javascript:void(0)" onclick='toggleModal("#modal_calepa")'>CalEPA</a>
                                 </td>
@@ -651,8 +657,6 @@
                                 <td>
                                     18. <a href="javascript:void(0)" onclick='toggleModal("#modal_weather")'>Weather</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     19. <a href="javascript:void(0)" onclick='toggleModal("#modal_sangisecology")'>SANGIS</a>
                                 </td>
@@ -661,43 +665,56 @@
                                 <td>
                                     20. <a href="javascript:void(0)" onclick='toggleModal("#modal_park")'>Park Location</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     21. <a href="javascript:void(0)" onclick='toggleModal("#modal_street")'>Streetlight Location</a>
                                 </td>
                             </tr>
-							<tr>
+			 </table>
+		     </div>
+
+
+                    <!-- Education subtheme; - -->
+		   <div class="panel panel-default">
+			<div class="panel-heading">
+                           <b>Education</b> 
+                        </div>
+			    <table class="table" style="text-align:left">
+				<tr>
                                 <td>
                                     22. <a href="javascript:void(0)" onclick='toggleModal("#modal_schooldash")'>California School Dashboard</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     23. <a href="javascript:void(0)" onclick='toggleModal("#modal_cde")'>California Department of Education</a>
                                 </td>
-                            </tr>
-                             <tr>
+				</tr>
+                               <tr>
                                 <td>
                                     24. <a href="javascript:void(0)" onclick='toggleModal("#modal_collegescorecard")'> College Scoreboard</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     25. <a href="javascript:void(0)" onclick='toggleModal("#modal_comcol")'>CA Community Colleges Datamart</a>
                                 </td>
-                            </tr>
+			      </tr>
                             <tr>
                                 <td>
                                     26. <a href="javascript:void(0)" onclick='toggleModal("#modal_edstats")'>National Center for Educational Statistics</a>
                                 </td>
                             </tr>
-							<tr>
+			  </table>
+		     </div>
+			    
+
+
+                    <!-- Transportation subtheme;  -->
+		    <div class="panel panel-default">
+			<div class="panel-heading">
+                           <b>Transportation</b> 
+                        </div>
+			    <table class="table" style="text-align:left">
+			    <tr>
                                 <td>
                                     27. <a href="javascript:void(0)" onclick='toggleModal("#modal_SWITRS")'>Statewide Integrated Traffic Records System</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     28. <a href="javascript:void(0)" onclick='toggleModal("#modal_TIMS")'>Transportation Injury Mapping System</a>
                                 </td>
@@ -706,54 +723,37 @@
                                 <td>
                                     29. <a href="javascript:void(0)" onclick='toggleModal("#modal_trafficvolumes")'>Traffic Volumes</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     30. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdtrafficvolumes")'>San Diego Traffic Volumes</a>
                                 </td>
-                            </tr>
+			    </tr>
                             <tr>
                                 <td>
                                     31. <a href="javascript:void(0)" onclick='toggleModal("#modal_caltransgis")'>Caltrans GIS</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     32. <a href="javascript:void(0)" onclick='toggleModal("#modal_chts")'>California Transportation Survey</a>
                                 </td>
-                            </tr>
+			    </tr>
                             <tr>
                                 <td>
                                     33. <a href="javascript:void(0)" onclick='toggleModal("#modal_historicaltraffic")'>Historical Traffic Volumes</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     34. <a href="javascript:void(0)" onclick='toggleModal("#modal_neighborhoodgis")'>Neighborhood GIS</a>
                                 </td>
-                            </tr>
+			   </tr>
                             <tr>
                                 <td>
                                     35. <a href="javascript:void(0)" onclick='toggleModal("#modal_historicalweatherI")'>Historical Weather I</a>
                                 </td>
-                            </tr>
-                            <tr>
                                 <td>
                                     36. <a href="javascript:void(0)" onclick='toggleModal("#modal_historicalweatherII")'>Historical Weather II</a>
                                 </td>
                             </tr>
-							
-                        </table>
-                    </div>				
-                    <!-- City Subtheme; - -->
-
-                    <!-- Environment subtheme; - -->
-
-
-                    <!-- Education subtheme; - -->
-
-
-                    <!-- Transportation subtheme;  -->
+			</table>
+		   </div>
+			    
 
 
             </article>
