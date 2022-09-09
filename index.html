@@ -493,8 +493,7 @@
                 <div id='teamwork'>
                         <!--<h3>
                             Teamwork
-                        </h3>-->
-                        
+                        </h3>-->                     
                         <ul style="padding-left:0; margin-left:25em; margin-right: 0em; list-style-type: disc; text-align: left;">
                             <font color="black" >
                                 <b>
@@ -565,7 +564,7 @@
                         <table class="table" style="text-align:left">
                             <tr>
 								<td>
-                                    1. <a href="javascript:void(0)" onclick='toggleModal("#modal_cms")'>CMS synthetic data</a> <br>
+                                    <a href="javascript:void(0)" onclick='toggleModal("#modal_cms")'>CMS synthetic data</a> <br>
 					<p><font color="black" >*CMS 2008-2010 Data Entrepreneurs’ Synthetic Public Use File (DE-SynPUF) is commonly used by entrepreneurs when looking for national data on 
 					what healthcare services are billed for by the federal government. It contains synthesized data taken from a 5% random sample of 
 					Medicare beneficiaries in 2008 and their claims from 2008 to 2010. The data includes over 2 million beneficiary records each year and can be summarized at the county level. 
@@ -591,27 +590,37 @@
 
                             <tr>
                                 <td>
-                                    2. <a href="javascript:void(0)" onclick='toggleModal("#modal_askchisne")'>OHE AskCHIS NE Dashboard</a>
+                                    1. <a href="javascript:void(0)" onclick='toggleModal("#modal_ccral")'>California Cancer Registry</a>
+                                </td>
+							</tr>
+							<tr>
+                                <td>
+                                    2. <a href="javascript:void(0)" onclick='toggleModal("#modal_covid19ca")'>Tracking COVID-19 in California</a>
+                                </td>
+							</tr>
+							<tr>
+                                <td>
+                                    3. <a href="javascript:void(0)" onclick='toggleModal("#modal_askchisne")'>OHE AskCHIS NE Dashboard</a>
                                 </td>
 							</tr>
                             <tr>
                                 <td>
-                                    3. <a href="javascript:void(0)" onclick='toggleModal("#modal_calhhs")'>California HHS Data Portal</a>
+                                    4. <a href="javascript:void(0)" onclick='toggleModal("#modal_calhhs")'>California HHS Data Portal</a>
                                 </td>
 							</tr>
 							<tr>
 								<td>
-                                    4. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdhhs")'>San Diego County HHS</a>
+                                    5. <a href="javascript:void(0)" onclick='toggleModal("#modal_sdhhs")'>San Diego County HHS</a>
                                 </td>
 							</tr>
                             <tr>
                                 <td>
-                                    5. <a href="javascript:void(0)" onclick='toggleModal("#modal_ces")'>Consumer Expenditures Survey</a>
+                                    6. <a href="javascript:void(0)" onclick='toggleModal("#modal_ces")'>Consumer Expenditures Survey</a>
                                 </td>
 							</tr>
                             <tr>
 								<td>
-                                    6. <a href="javascript:void(0)" onclick='toggleModal("#modal_fooddesert")'>Neighborhood GIS-Food Desert (SCALE SD)</a>
+                                    7. <a href="javascript:void(0)" onclick='toggleModal("#modal_fooddesert")'>Neighborhood GIS-Food Desert (SCALE SD)</a>
                                 </td>
                             </tr>			
                         </table>
@@ -5823,6 +5832,74 @@
             <!-- /.modal-dialog -->
         </div>
         <!-- /.modal -->
+
+        <!-- modal-ccral-->
+        <div class="modal fade" id='modal_ccral' tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">California Cancer Registry </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>
+							<p>CCR provides cancer statistics for California as a whole, statistics for specific regions of California, and statistics for individual counties..</p>
+                            </li>
+
+                            <li>Dataset
+                                <ul>
+                                    <li><a href='https://www.ccrcal.org/retrieve-data/'target='_blank'>California Cancer Registry</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+
+        <!-- modal-covid19ca-->
+        <div class="modal fade" id='modal_covid19ca' tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Tracking COVID-19 in California </h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>
+							<p>COVID19.CA.GOV provides the Covid-19 related data including cases and deaths by ethnicity, gender, and age, Unvaccinated and vaccinated data</p>
+                            </li>
+
+                            <li>Dataset
+                                <ul>
+                                    <li><a href='https://www.ccrcal.org/retrieve-data/'target='_blank'>Tracking COVID-19 in California</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
 
         <!-- modal-askchisne-->
         <div class="modal fade" id='modal_askchisne' tabindex="-1" role="dialog">
