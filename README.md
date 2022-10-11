@@ -19,3 +19,4 @@
 > - Submission Due: Upload **Presentation Slides** to your team GitHub repository **by 9:55 a.m.**
 > - A Presentation slide template is available [here](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/raw/master/templates/BigDataHackathon4SD_000.pptx). 
 > - Rename the presentation template by replacing "000" with your team ID number.
+> - Presentation Schedule will be available [here](presentation_schedule.md). 
