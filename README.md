@@ -12,7 +12,7 @@
 > - Make sure to think about the Hackathon theme, how this will help the user experience, how data will be incorporated and what problem it aims to solve. 
 
 ## Day 2, OCT 15: Final Project Submission Guidelines
-> - Submission Due: Upload the **Project Submission Form** and **Presentation Slides** to your team GitHub repository **by 10:00 a.m.**
+> - Submission Due: Upload the **Project Submission Form** and **Presentation Slides** to your team GitHub repository **by 9:55 a.m.**
 > - Templates will be available soon. 
 > - Rename the Project Submission Form file name by replacing "000" with your team number.
 > - Make sure to check all boxes that apply for each team member's status in the project submission form.
