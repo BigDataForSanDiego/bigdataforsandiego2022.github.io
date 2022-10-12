@@ -13,7 +13,7 @@
 
 ## OCT 12: Confirmation Form Submission 
 > - Complete a Google Form sent by the organizer to your registered email address
-> - EACH TEAM must submit ONE FORM **by 11:59:59 p.m.** in order to be eligible to present your work on Saturday, Oct. 15.
+> - EACH TEAM must submit ONE FORM **by OCT 12, 11:59:59 p.m.** in order to be eligible to present your work on Saturday, Oct. 15.
 
 ## OCT 15 (Day 2): Final Project Submission Guidelines
 > - Submission Due: Upload **Presentation Slides** to your team GitHub repository **by 9:55 a.m.**
