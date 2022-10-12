@@ -12,7 +12,7 @@
 > - Make sure to think about the Hackathon theme, how this will help the user experience, how data will be incorporated and what problem it aims to solve. 
 
 ## OCT 12: Confirmation Form Submission 
-> - Complete a Google Form to be sent by the organizer to your registered email address
+> - Complete a Google Form sent by the organizer to your registered email address
 > - EACH TEAM must submit ONE FORM **by 11:59:59 p.m.** in order to be eligible to present your work on Saturday, Oct. 15.
 
 ## OCT 15 (Day 2): Final Project Submission Guidelines
