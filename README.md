@@ -16,7 +16,8 @@
 > - EACH TEAM must submit ONE FORM **by OCT 12, 11:59:59 p.m.** in order to be eligible to present your work on Saturday, Oct. 15.
 
 ## OCT 15 (Day 2): Final Project Submission Guidelines
-> - Submission Due: Upload **Presentation Slides** to the **top directory** of your team GitHub repository **by 9:55 a.m.**
+> - Submission Due: Upload **Presentation Slides** to the **top directory** of your team GitHub repository **by 9:55 a.m. (STRICT)** 
+> - Upload any other materials (e.g., source codes, resources, images, demo video, sample data) to your team GitHub repository **by 9:55 a.m. (STRICT)** 
 > - A Presentation slide template is available [here](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/raw/master/templates/BigDataHackathon4SD_000.pptx). 
 > - Rename the presentation template by replacing "000" with your team ID number.
 > - Presentation Schedule is available [here](presentation_schedule.md). 
