@@ -14,18 +14,18 @@
 | 10 |  10:45-10:50  |  106  | OG Hacking Homies         |
 | 11 |  10:50-10:55  |  126  | The Green Arrays          |
 | 12 |  10:55-11:00  |  109  | D-Distorters              |
-| 13 |  10:00-11:05  |  115  | LA REJECTS                |
-| 14 |  10:05-11:10  |  202  | Captain Data Crunchers    |
-| 15 |  10:10-11:15  |  114  | Inter                     |
-| 16 |  10:15-11:20  |  120  | San Diego Miramar College Computer Science Club |
-| 17 |  10:20-11:25  |  203  | Eagles                    |
-| 18 |  10:25-11:30  |       |                           |
-| 19 |  10:30-11:35  |  410  | team410                   |
-| 20 |  10:35-11:40  |       |                           |
-| 21 |  10:40-11:45  |  213  | HeartHackers              |
-| 22 |  10:45-11:50  |  205  | For-Loop-A-Doop           |
-| 23 |  10:50-12:55  |  214  | SI++                      |
-| 24 |  10:55-12:00  |  216  | StarLab                   |
+| 13 |  11:00-11:05  |  115  | LA REJECTS                |
+| 14 |  11:05-11:10  |  202  | Captain Data Crunchers    |
+| 15 |  11:10-11:15  |  114  | Inter                     |
+| 16 |  11:15-11:20  |       |                           |
+| 17 |  11:20-11:25  |  203  | Eagles                    |
+| 18 |  11:25-11:30  |       |                           |
+| 19 |  11:30-11:35  |  410  | team410                   |
+| 20 |  11:35-11:40  |       |                           |
+| 21 |  11:40-11:45  |  213  | HeartHackers              |
+| 22 |  11:45-11:50  |  205  | For-Loop-A-Doop           |
+| 23 |  11:50-12:55  |  214  | SI++                      |
+| 24 |  11:55-12:00  |  216  | StarLab                   |
 | 25 |  12:00-12:05  |  225  | Data Tribe                |
 | 26 |  12:05-12:10  |  250  | The Relative Primes       |
 | 27 |  12:10-12:15  |  201  | MiraCosta Computer Science for the Common Good |
